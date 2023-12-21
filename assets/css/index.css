@@ -1,5 +1,5 @@
 body {
-    font-family: "Kanit", sans-serif;
+    font-family: "Prompt", sans-serif;
   }
   .navbar-nav > li{
     margin-left:20px;
@@ -63,4 +63,38 @@ body {
   .rounded-button:hover {
     background-color: #013169; 
     color: #fff;
+  }
+
+
+  .suggess-text{
+    font-weight: bold;
+  }
+
+  .pull-text-right{
+    text-align: right;
+  }
+
+  .rounded-select {
+    border-radius: 20px; 
+    width: 80%;
+    padding: 8px 15px;
+    background-color: #fff; 
+    color: #000; 
+    border: 1px solid #ced4da; 
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    #searchbox {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+
+    .pull-text-right{
+      text-align: left;
+    }
   }

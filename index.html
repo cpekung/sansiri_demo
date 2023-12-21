@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prompt">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -25,12 +25,12 @@
             <a class="navbar-brand" href="#">
                 <img src="./assets/img/logo.png" width="100" class="d-inline-block align-top" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarToggler">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#">บ้านเดี่ยว</a>
@@ -47,7 +47,7 @@
                 </ul>
             </div>
             <!-- Icon on the right -->
-            <div class="ml-auto">
+            <div class="ml-auto" id="searchbox">
                 <i class="fa fa-search"></i>
             </div>
         </div>
@@ -142,10 +142,46 @@
 
 
     <!-- ==== suggess Section ==== -->
-    <div class="container" id="suggess_section">
+    <div id="suggess_section" class="container-fluid" style="background-color: #F3F6FF">
+        <div class="row d-flex justify-content-center" style="padding: 20px;">
+            <div class="col-md-12">
+                <h4 class="text-center">แนะนำโครงการ</h4>
+            </div>
+            <div class="col-md-12">
+                <h6 class="text-center">เลือกโครงการบ้านที่ใช่ ตอบโจทย์ทุกไลฟ์สไตล์ของคุณ</h6>
+            </div>
 
+            
+        </div>
+        
     </div>
+    <div id="suggess_section2" class="container-fluid" style="background-color: #F1EFE8">
+        <div class="row d-flex justify-content-center" style="padding: 20px;">
+            <div class="col-md-6">
+                <div style="margin: 50px;">
+                    <h4 class="suggess-text">แนะนำทำเลเด่นทั่วประเทศ</h4>
+                    <h5 class="suggess-text">ทำเลนี้ดีอย่างไร..พบคำตอบเพื่อการเลือกบ้านที่ใช่โดนใจคุณ</h5>
+                    <h6 >ส่องศักยภาพทำเลน่าอยู่ ทั่วกรุงเทพ ปริมณฑล และต่างจังหวัด หัวเมืองต่างๆ</h6>
+                    <select class="rounded-select">
+                        <option value="option1">เลือกทำเลที่คุณสนใจ</option>
+                      </select>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div style="margin: 50px;" class="pull-text-right">
+                    <h4 style="font-weight: bold;text-decoration: underline;">คอนโดต่างจังหวัด</h4></u>
+                    <h4 class="suggess-text">เป็นที่<span style="color: #0A50A1;">ต้องการของตลาด</span></h4>
+                    <h4 class="suggess-text">อยู่เองก็ดี ตากอากาศก็ได้</h4>
+                    <h4 class="suggess-text"><span style="color: #FD7953;">ลงทุนที่คุ้มค่า</span> ส่วนกลาง</h4>
+                    <h4 class="suggess-text">ตอบโจทย์ทุกไลฟ์สไตล์</h4>
+                </div>
 
+            </div>
+
+            
+        </div>
+        
+    </div>
 
     <!-- ==== Script ==== -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
